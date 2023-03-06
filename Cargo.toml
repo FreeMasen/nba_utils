@@ -1,0 +1,16 @@
+[package]
+name = "nba-utils"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fantoccini = "0.19.3"
+progress_string = "0.2"
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+termion = "2"
+time = { version = "0.3", features = ["serde"] }
+tokio = { version = "1.26", features = ["full"] }
